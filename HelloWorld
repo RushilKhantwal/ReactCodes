@@ -1,0 +1,18 @@
+import React from "react"
+import ReactDOM from "react-dom"
+
+function MyInfo()
+{
+  return(<div><h1>Rushil Khantwal</h1>
+          <p>I am a 4th semester student majoring in  computer science></p>
+          <ul> 
+          <li> Melbourne </li>
+          <li> Venice </li>
+          <li> Garrison </li>
+          </ul>
+          </div>
+          )
+          
+}
+
+ReactDOM.render(<MyInfo />,document.getElementById("root"))
